@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Test</display-name>
+  <servlet>
+    <servlet-name>servletone</servlet-name>
+    <servlet-class>com.servlets.servletone</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletone</servlet-name>
+    <url-pattern>/bonjour</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>servletdelete</servlet-name>
+    <servlet-class>com.servlets.servletdelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletdelete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>servletupdate</servlet-name>
+    <servlet-class>com.servlets.servletupdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletupdate</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+</web-app>
